@@ -116,11 +116,7 @@ function App() {
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2 text-dark">{product.t}</h3>
-                  <p className="text-gray-500 text-sm mb-4 leading-relaxed">{product.d}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-primary font-display text-2xl">{product.p}</span>
-                    <button className="bg-primary/10 text-primary px-4 py-2 rounded-lg text-sm font-semibold hover:bg-primary hover:text-white transition-all">Details</button>
-                  </div>
+                  <p className="text-gray-500 text-sm leading-relaxed">{product.d}</p>
                 </div>
               </div>
             ))}
@@ -134,7 +130,7 @@ function App() {
           <h2 className="section-title">LATEST PROJECTS</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-          {[{img:'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800',c:'Structural',t:'Harbor Bridge',sp:'col-span-2 row-span-2'},{img:'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=600',c:'Industrial',t:'Factory System',sp:''},{img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',c:'Custom',t:'Entry Gate',sp:''},{img:'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=600',c:'Piping',t:'Oil Pipeline',sp:''},{img:'https://images.unsplash.com/photo-1590959651373-a3db0af38a9a?w=600',c:'Artistic',t:'Phoenix Sculpture',sp:''}].map((p,i)=>(
+          {[{img:'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800',c:'Structural',t:'Harbor Bridge',sp:'col-span-2 row-span-2'},{img:'https://images.unsplash.com/photo-1581091226033-d5c48129d6e8?w=600',c:'Industrial',t:'Factory System',sp:''},{img:'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600',c:'Custom',t:'Entry Gate',sp:''},{img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600',c:'Piping',t:'Oil Pipeline',sp:''},{img:'https://images.unsplash.com/photo-1590959651373-a3db0af38a9a?w=600',c:'Artistic',t:'Phoenix Sculpture',sp:''}].map((p,i)=>(
             <div key={i} className={`relative overflow-hidden cursor-pointer group rounded-2xl ${p.sp || ''}`}>
               <img src={p.img} alt={p.t} className="w-full h-full object-cover transition-transform duration-600 group-hover:scale-110 aspect-square" />
               <div className="absolute inset-0 bg-gradient-to-t from-white via-white/50 to-transparent flex flex-col justify-end p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-400"><span className="text-primary text-xs uppercase tracking-widest mb-2">{p.c}</span><h3 className="text-2xl font-bold text-dark">{p.t}</h3></div>
