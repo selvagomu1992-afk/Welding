@@ -52,10 +52,23 @@ function App() {
         <div className="max-w-7xl mx-auto text-center mb-20">
           <span className="section-tag">What We Do</span>
           <h2 className="section-title">OUR EXPERTISE</h2>
-          <p className="section-desc">Mastering the art of metal fusion with cutting-edge techniques.</p>
+          <p className="section-desc">Mastering the art of metal fusion with cutting-edge techniques and custom fabrication.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {[{t:'Structural Welding',d:'Heavy-duty structural steel fabrication for commercial buildings.'},{t:'MIG/TIG Welding',d:'Precision welding for stainless steel, aluminum, and exotic alloys.'},{t:'Custom Fabrication',d:'Bespoke metal fabrication from blueprints to finished product.'},{t:'Repair Services',d:'Emergency repair and restoration with rapid turnaround.'},{t:'Pipe Welding',d:'Professional pipe welding with certified welders.'},{t:'Artistic Welding',d:'Custom metal sculptures and architectural metalwork.'}].map((s,i)=>(
+          {[
+            {t:'Home Doors',d:'Custom metal doors for residential and commercial properties. Steel security doors, decorative entry doors, and fire-rated doors with expert craftsmanship.'},
+            {t:'Bridge Construction',d:'Heavy-duty steel bridges for industrial, agricultural, and commercial use. Pedestrian bridges, vehicular bridges, and modular bridge systems.'},
+            {t:'Security Cages',d:'Industrial and commercial security cages for equipment protection, storage enclosures, and high-security storage areas.'},
+            {t:'Roofing Systems',d:'Metal roofing structures, canopy覆盖 systems, and industrial roofing solutions. Custom steel roof frames and cladding.'},
+            {t:'Hand Carts',d:'Heavy-duty hand carts and platform trucks for industrial use. Custom designs for specific applications and load requirements.'},
+            {t:'Trolleys',d:'Industrial trolleys for material handling. Heavy-duty warehouse trolleys, workshop trolleys, and specialized transport equipment.'},
+            {t:'Structural Welding',d:'Heavy-duty structural steel fabrication for commercial buildings, bridges, and industrial facilities.'},
+            {t:'MIG/TIG Welding',d:'Precision welding for stainless steel, aluminum, and exotic alloys.'},
+            {t:'Custom Fabrication',d:'Bespoke metal fabrication from blueprints to finished product.'},
+            {t:'Repair Services',d:'Emergency repair and restoration with rapid turnaround.'},
+            {t:'Pipe Welding',d:'Professional pipe welding with certified welders.'},
+            {t:'Artistic Welding',d:'Custom metal sculptures and architectural metalwork.'}
+          ].map((s,i)=>(
             <div key={i} className="bg-dark-surface border border-white/5 p-12 hover:-translate-y-2.5 hover:border-primary/30 transition-all">
               <div className="w-[70px] h-[70px] bg-primary/10 rounded-2xl flex items-center justify-center mb-8 text-primary">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-8 h-8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
@@ -104,7 +117,7 @@ function App() {
       <footer className="bg-dark py-20 px-6 border-t border-white/5">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-16 mb-16">
           <div><div className="font-display text-4xl mb-5">APEX<span className="text-primary">.</span></div><p className="text-text-secondary mb-6">Transforming metal into masterpieces since 1985.</p><div className="flex gap-4">{['T','I','L','Y'].map((s,i)=>(<a key={i} href="#" className="w-11 h-11 bg-dark-surface rounded-lg flex items-center justify-center text-text-secondary hover:bg-primary hover:text-dark transition-all">{s}</a>))}</div></div>
-          <div><h4 className="text-sm font-semibold uppercase mb-6">Services</h4><ul className="space-y-3">{['Structural','MIG/TIG','Custom','Pipe','Repair'].map(s=><li key={s}><a href="#" className="text-text-secondary hover:text-primary">{s} Welding</a></li>)}</ul></div>
+          <div><h4 className="text-sm font-semibold uppercase mb-6">Services</h4><ul className="space-y-3">{['Home Doors','Bridges','Cages','Roofing','Hand Carts','Trolleys','Structural','MIG/TIG'].map(s=><li key={s}><a href="#" className="text-text-secondary hover:text-primary">{s}</a></li>)}</ul></div>
           <div><h4 className="text-sm font-semibold uppercase mb-6">Company</h4><ul className="space-y-3">{['About','Team','Careers','Certifications'].map(s=><li key={s}><a href="#" className="text-text-secondary hover:text-primary">{s}</a></li>)}</ul></div>
           <div><h4 className="text-sm font-semibold uppercase mb-6">Contact</h4><ul className="space-y-3"><li><a href="tel:+18005554687" className="text-text-secondary hover:text-primary">(800) 555-4687</a></li><li><a href="mailto:info@apex.com" className="text-text-secondary hover:text-primary">info@apexwelding.com</a></li><li className="text-text-secondary">1247 Industrial Way</li></ul></div>
         </div>
