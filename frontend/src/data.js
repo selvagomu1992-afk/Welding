@@ -1,0 +1,28 @@
+export const products = [
+  {id:1, c:'Home Doors', t:'Steel Security Door', p:'$850', img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', d:'Heavy-gauge steel security door with multi-point lock system.'},
+  {id:2, c:'Home Doors', t:'Decorative Entry Door', p:'$1,200', img:'https://images.unsplash.com/photo-1557821552-17105176677c?w=400', d:'Ornate metal entry door with custom scrollwork design.'},
+  {id:3, c:'Home Doors', t:'Fire-Rated Door', p:'$950', img:'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400', d:'90-minute fire-rated steel door for commercial use.'},
+  {id:4, c:'Bridges', t:'Pedestrian Steel Bridge', p:'$12,000', img:'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400', d:'Modular steel footbridge, 40ft span, hot-dip galvanized.'},
+  {id:5, c:'Bridges', t:'Vehicular Bridge', p:'$45,000', img:'https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=400', d:'Heavy-duty vehicle bridge rated for 20 tons.'},
+  {id:6, c:'Bridges', t:'Garden Arch Bridge', p:'$4,500', img:'https://images.unsplash.com/photo-1518783871646-4f7f179a67c0?w=400', d:'Decorative garden bridge with powder coat finish.'},
+  {id:7, c:'Cages', t:'Equipment Security Cage', p:'$3,200', img:'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=400', d:'Welded wire mesh cage for equipment storage.'},
+  {id:8, c:'Cages', t:'High-Security Cage', p:'$5,800', img:'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=400', d:'Armored storage cage with anti-tamper bolts.'},
+  {id:9, c:'Cages', t:'Tool Storage Cage', p:'$2,100', img:'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=400', d:'Modular tool cage with lockable access panels.'},
+  {id:10, c:'Roofing', t:'Industrial Canopy', p:'$8,500', img:'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400', d:'Steel frame canopy with corrugated metal roof.'},
+  {id:11, c:'Roofing', t:'Carport Structure', p:'$4,200', img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', d:'Prefabricated carport with 20ft span.'},
+  {id:12, c:'Roofing', t:'Warehouse Roof Frame', p:'$15,000', img:'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=400', d:'Structural steel roof frame for 50x100 building.'},
+  {id:13, c:'Hand Carts', t:'Heavy-Duty Platform Cart', p:'$450', img:'https://images.unsplash.com/photo-1590959651373-a3db0af38a9a?w=400', d:'Steel platform cart, 2000lb capacity.'},
+  {id:14, c:'Hand Carts', t:'Stainless Steel Cart', p:'$680', img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', d:'NSF-certified stainless hand cart for food service.'},
+  {id:15, c:'Hand Carts', t:'Landscape Cart', p:'$380', img:'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400', d:'Heavy-duty yard cart with 10 cubic foot capacity.'},
+  {id:16, c:'Trolleys', t:'Warehouse Trolley', p:'$750', img:'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=400', d:'Four-wheel material trolley with brakes.'},
+  {id:17, c:'Trolleys', t:'Workshop Trolley', p:'$520', img:'https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=400', d:'Mobile tool trolley with 6 drawers.'},
+  {id:18, c:'Trolleys', t:'Pallet Jack Trolley', p:'$890', img:'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=400', d:'Manual pallet jack with 5500lb capacity.'},
+  {id:19, c:'Structural', t:'Steel Frame Building', p:'$25,000', img:'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=400', d:'Prefab steel building frame, 40x60ft.'},
+  {id:20, c:'MIG/TIG', t:'Stainless Steel Tank', p:'$4,800', img:'https://images.unsplash.com/photo-1581094288338-2314dddb7ece?w=400', d:'Custom stainless tank, 500 gallon capacity.'},
+  {id:21, c:'Custom', t:'Custom Metal Railing', p:'$2,200', img:'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400', d:'Decorative metal railing for staircases.'},
+  {id:22, c:'Repair', t:'Heavy Equipment Repair', p:'$1,500', img:'https://images.unsplash.com/photo-1565514020179-026b92b84bb6?w=400', d:'Industrial equipment repair and reinforcement.'},
+  {id:23, c:'Artistic', t:'Metal Sculpture', p:'$3,500', img:'https://images.unsplash.com/photo-1590959651373-a3db0af38a9a?w=400', d:'Abstract metal sculpture for gardens.'},
+  {id:24, c:'Artistic', t:'Custom Metal Sign', p:'$950', img:'https://images.unsplash.com/photo-1557821552-17105176677c?w=400', d:'Laser-cut decorative metal sign.'},
+];
+
+export const categories = ['All', 'Home Doors', 'Bridges', 'Cages', 'Roofing', 'Hand Carts', 'Trolleys', 'Structural', 'MIG/TIG', 'Custom', 'Repair', 'Artistic'];
